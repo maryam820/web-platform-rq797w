@@ -1,0 +1,133 @@
+html body{
+  background-color: skyblue;
+    margin: 0;
+    padding: 0;
+   
+}
+h2{
+  color: black;
+  font-family: 'Tangerine', serif;
+  font-size: 38px;
+  position:fixed;
+  left:39%;
+  margin: 0;
+  padding: 0;
+      
+}
+h3{
+  color: black;
+  /* margin:80px 2px 0px 2px; */
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+  position:fixed;
+  left:39%;
+  margin: 2;
+  padding: 0; 
+  bottom: 82%; 
+}
+h4{
+  color: blue; 
+  /* margin:1px 2px 0px 2px; */
+  font-family: 'Tangerine', serif;
+  font-size: 24px;
+  position:fixed;
+  left:39%;
+  margin: 4px;
+  padding: 0;
+  bottom: 82%;
+  
+}
+
+.container{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    box-shadow: rgb(255, 255, 0);
+    border-radius: 13px;
+    padding-bottom: 18px;
+    width: 293px;
+    height: 425px;
+    display: grid;
+    justify-self: center;
+}
+
+.display{
+    width: 100%;
+    height: 10vh;
+    padding: 40px 0;
+    background:#265d77;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    
+}
+
+.buttons{
+  position:fixed;
+    padding: 20px 20px 0 20px;
+  
+}
+
+.row{
+    width: 280px;
+    float: left;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+input[type=button]{
+  width: 52px;
+  height: 43px;
+  float: left;
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: gray;
+  border: none;
+  font-size: 29px;
+  line-height: 30px;
+  border-radius: 30%;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type=text]{
+    width: 243px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    margin: 0 25px;
+}
+
+.blue{
+  background-color: tomato;
+  color: white;
+}
+
+.clear[type=button]
+{
+  
+  background-color:red;
+  color: white;
+  width: 77px;
+} 
+.orange[type=button]
+{
+  background-color:rgb(255, 115, 0);
+  color: white;
+  
+} 
